@@ -320,11 +320,11 @@ export const Home = () => {
                 </div>
                 <div className="chat">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M18.3464 10.4778V14.9046C18.3464 15.1923 18.3354 15.469 18.3024 15.7346C18.0491 18.7227 16.2983 20.2056 13.0719 20.2056H12.6314C12.3562 20.2056 12.0919 20.3384 11.9267 20.5598L10.6053 22.3305C10.0217 23.1162 9.07471 23.1162 8.4911 22.3305L7.16971 20.5598C7.02656 20.3716 6.70724 20.2056 6.46499 20.2056H6.02453C2.51185 20.2056 0.75 19.3314 0.75 14.9046V10.4778C0.75 7.23521 2.23657 5.47557 5.19867 5.22103C5.46294 5.18783 5.73823 5.17676 6.02453 5.17676H13.0719C16.5846 5.17676 18.3464 6.94747 18.3464 10.4778Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M22.75 6.05109V10.4779C22.75 13.7316 21.2634 15.4801 18.3013 15.7347C18.3344 15.4691 18.3454 15.1924 18.3454 14.9047V10.4779C18.3454 6.94751 16.5835 5.17679 13.0709 5.17679H6.0235C5.7372 5.17679 5.46191 5.18786 5.19763 5.22106C5.4509 2.24405 7.20173 0.75 10.4281 0.75H17.4755C20.9881 0.75 22.75 2.52072 22.75 6.05109Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M13.4089 13.2003H13.4188" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M9.55346 13.2003H9.56337" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M5.69994 13.2003H5.70985" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M18.3464 10.4778V14.9046C18.3464 15.1923 18.3354 15.469 18.3024 15.7346C18.0491 18.7227 16.2983 20.2056 13.0719 20.2056H12.6314C12.3562 20.2056 12.0919 20.3384 11.9267 20.5598L10.6053 22.3305C10.0217 23.1162 9.07471 23.1162 8.4911 22.3305L7.16971 20.5598C7.02656 20.3716 6.70724 20.2056 6.46499 20.2056H6.02453C2.51185 20.2056 0.75 19.3314 0.75 14.9046V10.4778C0.75 7.23521 2.23657 5.47557 5.19867 5.22103C5.46294 5.18783 5.73823 5.17676 6.02453 5.17676H13.0719C16.5846 5.17676 18.3464 6.94747 18.3464 10.4778Z" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M22.75 6.05109V10.4779C22.75 13.7316 21.2634 15.4801 18.3013 15.7347C18.3344 15.4691 18.3454 15.1924 18.3454 14.9047V10.4779C18.3454 6.94751 16.5835 5.17679 13.0709 5.17679H6.0235C5.7372 5.17679 5.46191 5.18786 5.19763 5.22106C5.4509 2.24405 7.20173 0.75 10.4281 0.75H17.4755C20.9881 0.75 22.75 2.52072 22.75 6.05109Z" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M13.4089 13.2003H13.4188" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M9.55346 13.2003H9.56337" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M5.69994 13.2003H5.70985" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
 
                 </div>
