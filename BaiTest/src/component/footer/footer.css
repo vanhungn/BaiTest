@@ -1,0 +1,255 @@
+.footer {
+    margin-top: 5%;
+    border-top: 1px #EBEBEB solid;
+
+}
+
+.footerContent {
+    max-width: 1135px;
+    padding: 5% 30px 0 30px;
+    margin: 0 auto;
+
+}
+
+.footerInfo {
+    display: grid;
+    grid-template-columns: 2.2fr 1fr 1fr 2fr;
+}
+
+.logoFooter {
+    height: 16px;
+}
+
+.infoContent {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #555555;
+
+}
+
+.about,
+.newsLetter,
+.hotCategories,
+.service {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.logoFooter {
+    width: auto;
+}
+
+.followOnShop {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social {
+    display: flex;
+    gap: 10px
+}
+
+.inputNewsLetter {
+    padding: 10px 15px;
+    border: 1px #EBEBEB solid;
+    outline: none;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+.textFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 1s all;
+    overflow: hidden;
+}
+
+.hotCategoriesTitle,
+.serviceTitle,
+.newsLetterTitle {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.infoContent span {
+    padding-left: 12px;
+    color: #111111;
+}
+
+.contactNewsLetter {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+
+.copyRightLeft {
+    display: flex;
+    gap: 10px
+}
+
+.copyRightLeft span {
+    background-color: #FFFFFF;
+    border: none;
+    font-weight: 500;
+    color: #555555;
+    font-size: 12px;
+
+}
+
+.copyRightLeft svg {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.copyRightRight {
+    display: flex;
+    gap: 5px
+}
+
+.boxImgCopyRightRight {
+    border-radius: 3px;
+    border: 1px #DEDEDE solid;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.copyRight {
+    margin-top: 50px;
+    padding: 20px 0;
+    border-top: 1px #EBEBEB solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boxTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.toolFooter {
+    display: none;
+}
+
+@media (max-width:960px) {
+    .footerInfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px
+    }
+}
+
+@media(max-width:680px) {
+    .footerInfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px
+    }
+}
+
+@media (max-width:840px) {
+    .copyRight {
+        display: flex;
+        flex-direction: column;
+        gap: 20px
+    }
+}
+
+@media (max-width:580px) {
+    .footerInfo {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0
+    }
+
+    .infoContent {
+        font-size: 15px;
+    }
+
+    .about,
+    .newsLetter,
+    .hotCategories,
+    .service {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about {
+        margin-top: 30px;
+    }
+
+    .newsLetter,
+    .hotCategories,
+    .service {
+        padding: 20px 0;
+        border-top: 1px #EBEBEB solid;
+        border-bottom: 1px #EBEBEB solid;
+    }
+
+    .hotCategories {
+        margin-top: 20px;
+    }
+
+    .followOnShop {
+        display: none;
+    }
+
+    .copyRight {
+        justify-content: center;
+       
+        border: none;
+        margin: 0;
+    }
+
+    .toolFooter {
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        gap: 25px
+    }
+
+    .boxToolFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wishlistFooter {
+        position: relative;
+    }
+
+    .infoWishlistFooter {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background-color: #D73F0F;
+        top: -30%;
+        right: -60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .infoWishlistFooter span {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #FFFFFF;
+    }
+}

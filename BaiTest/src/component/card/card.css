@@ -1,0 +1,152 @@
+.boxImg {
+    position: relative;
+    border-radius:10px ;
+    overflow: hidden;
+}
+
+.promotion {
+    display: flex;
+    flex-direction: column;
+    gap: 3px
+}
+
+.boxImg .promotion {
+    position: absolute;
+    top: 3%;
+    left: 4%;
+
+
+}
+
+.soldOut,
+.discount,
+.preOder {
+    background-color: #757575;
+    border-radius: 30px;
+    padding: 5px 10px;
+    width: fit-content;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount {
+    background-color: #D73F0F;
+}
+
+.preOder {
+    background-color: #177983;
+}
+
+.contentCard {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px
+}
+
+.contentCard h5 {
+    font-size: 11.5px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.contentCard h6 {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.fullStart {
+    color: #111111;
+    font-size: 12px;
+}
+
+.partStart {
+    background: linear-gradient(to right, #111111 50%, #C8C8C8 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 12px;
+}
+
+.noneStart {
+    color: #C8C8C8;
+    font-size: 12px;
+}
+
+.ListColor {
+    display: flex;
+    gap: 5px
+}
+
+.chooseBoxButtonCard {
+    border: 1px #111111 solid;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+  
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxButtonCard {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px #DDDDDD solid;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.boxButtonCard button,
+.chooseBoxButtonCard button {
+    width: 80%;
+    height: 80%;
+    border: none;
+    border-radius: 50%;
+}
+.buttonIconHover{
+    position: absolute;
+    top: 5%;
+    right:5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.buttonIcon{
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannerSale{
+    background-color: #111111;
+    color: #FFFFFF;
+    font-size: 11px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    white-space: nowrap;
+}
+.bannerSale {
+    display: flex;
+    justify-content: center;
+    gap:5px
+}
