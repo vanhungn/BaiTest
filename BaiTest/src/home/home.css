@@ -1,10 +1,11 @@
 .bannerPromotion {
-    max-width: 1135px;
-    padding: 0 30px;
+    max-width: 1187px;
+    padding: 0 22px;
     margin: 0 auto;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    transform: translateX(0.7%);
 
 }
 
@@ -17,30 +18,30 @@
 .SleevelessDress div,
 .BoysComfyStyles div {
     position: absolute;
-    bottom: 8%;
-    left: 6%;
+    bottom: 7.5%;
+    left: 5.58%;
 
 }
 
 .SleevelessDress div p,
 .BoysComfyStyles div p {
-    font-size: 8px;
+    font-size: 9px;
     font-weight: 700;
     line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 1%;
     color: #FFFFFF;
     text-transform: uppercase;
+    font-family: "Instrument Sans", sans-serif;
 }
 
 .SleevelessDress div h3,
 .BoysComfyStyles div h3 {
-    font-size: 29px;
+    font-size: 30px;
     font-weight: 600;
-    line-height: 100%;
-    letter-spacing: -2%;
     color: #FFFFFF;
-
-    margin: 12px 0 15px 0;
+    margin: 6px 0 19px 0;
+    letter-spacing: -1%;
+    font-family: "Instrument Sans", sans-serif;
 }
 
 .SleevelessDress img {
@@ -50,7 +51,7 @@
 .scrollText {
     margin: auto;
     overflow: hidden;
-    margin-top: 1%;
+    margin-top: 12px;
     width: 100%;
     height: 90px;
     display: flex;
@@ -59,16 +60,22 @@
 }
 
 .scrollText div {
+    padding-left: 478px;
     display: inline-flex;
+    align-items: center;
     text-align: center;
-    gap: 50px;
+    gap: 41px;
     white-space: nowrap;
     color: #111111;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 100%;
-    letter-spacing: 0%;
-    font-weight: 500;
+    letter-spacing: -1.9%;
+    font-weight: 600;
     animation: scroll 20s linear infinite;
+}
+
+.iconFlower {
+    margin-top: 3px
 }
 
 @keyframes scroll {
@@ -81,40 +88,85 @@
     }
 }
 
-.featureCategories h3,
-.newArrivals h3 {
-    font-size: 38px;
+.featureCategories h3 {
+    font-size: 34px;
     font-weight: 400;
-    line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 1%;
     text-align: center;
+    transform: translate(0.55%, -4%);
+
+
+}
+
+.newArrivals h3 {
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 1%;
+    text-align: center;
+
+    margin: 0;
+    font-kerning: none;
+    text-rendering: geometricPrecision;
+}
+
+.featureCategories p {
+    transform: translate(0.7%, -20%);
+
+}
+
+.newArrivals h3 {
+    letter-spacing: 2% !important;
+    transform: translate(1%, -7%);
+
+}
+
+.newArrivals p {
+    letter-spacing: 1% !important;
+    transform: translate(0.7%, -35%);
+
 }
 
 .featureCategories p,
 .newArrivals p {
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     line-height: 100%;
-    letter-spacing: 0%;
-    margin: 15px 0 25px 0;
+    letter-spacing: 0.5%;
+    margin: 12px 0 28px 0;
     padding: 0 10px;
     color: #555555;
 }
 
 .featureCategories,
 .newArrivals {
-    max-width: 1135px;
-    padding: 5% 30px 0px 30px;
+    max-width: 1187px;
+    padding: 4.5% 22px 0px 22px;
     margin: auto;
 }
+
+.newArrivals {
+    padding: 5% 22px 0px 22px;
+}
+
 
 
 .category {
 
+    transform: translateX(0.7%);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    gap: 26px;
 
+}
+
+.sp2 .button {
+    padding: 14px 30px;
+    margin-bottom: 3%;
+}
+
+.sp3 .button {
+    padding: 14px 50px;
+    margin-bottom: 10%;
 }
 
 .category div {
@@ -136,13 +188,15 @@
 .categoriesMiddle {
     display: flex;
     flex-direction: column;
-    gap: 30px
+    gap: 20px
 }
 
 .listNewArrivals {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 25px
+    gap: 25px;
+    transform: translate(0.7%, -0.5%);
+
 }
 
 .boxImg img {
@@ -173,16 +227,17 @@
     align-items: center;
 }
 
-.sp3 .boxButton,
+
 .sp2 .boxButton {
     margin-bottom: 10px;
 }
 
 .fixed {
     position: fixed;
-    right: 5%;
-    bottom: 8%;
+    right: 8%;
+    bottom: 9%;
     display: none;
+    z-index: 100;
 
 }
 
@@ -206,6 +261,15 @@
     align-items: center;
 }
 
+@media (max-width:721px) {
+
+    .SleevelessDress div h3,
+    .BoysComfyStyles div h3 {
+        font-size: 24px;
+        margin: 12px 0 40px 0;
+    }
+}
+
 @media (max-width:580px) {
 
     .SleevelessDress div,
@@ -219,10 +283,7 @@
         padding: 15px 15px;
     }
 
-    .SleevelessDress div h3,
-    .BoysComfyStyles div h3 {
-        margin: 12px 0 40px 0;
-    }
+
 
     .SleevelessDress div p,
     .BoysComfyStyles div p {
@@ -270,8 +331,8 @@
     }
 
     .bannerPromotion {
-        flex-wrap: wrap;
-
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     .page {
@@ -285,20 +346,16 @@
         gap: 10px
     }
 
-    .featureCategories h3,
-    .newArrivals h3 {
-        font-size: 30px;
 
-    }
 
     .featureCategories {
-        padding: 10% 30px 0px 30px;
+        transform: translate(0%, 0%);
+        padding: 10% 22px 0px 22px;
     }
 
     .newArrivals {
-
-        padding: 15% 30px 0px 30px;
-
+        padding: 15% 22px 0px 22px;
+        transform: translate(0%, 0%);
     }
 
 }

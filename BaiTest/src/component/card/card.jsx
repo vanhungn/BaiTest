@@ -67,22 +67,21 @@ export const Card = ({responsive, discountPrice, color, price, rate, img, soldOu
             </div>
             <div className="contentCard">
                 <h5>{name}</h5>
-                <div>
+                <div className="listFullStart">
                     {
                         [1, 2, 3, 4, 5].map((item, index) => {
-                            console.log(rate >= item)
                             return (
                                 <span key={index} className={item <= rate ? "fullStart" : (item - 0.5) === rate ? "partStart" : "noneStart"}>★</span>
                             )
                         })
                     }
                 </div>
-                <div>
+                <div className="price">
                     {
                         discountPrice === "" ? <h6>{price}</h6> :
-                            <div style={{ display: "flex",gap:5 }}>
-                                <h6 style={{ color: "#D73F0F" }} >{discountPrice}</h6>
-                                <h6 style={{ color: "#999999", textDecoration: "line-through" }}>{price}</h6>
+                            <div style={{ display: "flex",gap:4 }}>
+                                <h6 style={{ color: "#D73F0F",fontSize:12 }} >{discountPrice}</h6>
+                                <h6 style={{ color: "#999999", fontSize:12,textDecoration: "line-through" }}>{price}</h6>
                             </div>
                     }
 

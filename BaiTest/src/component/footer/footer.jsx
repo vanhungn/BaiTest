@@ -19,41 +19,47 @@ export const Footer = ({ responsive }) => {
                             <img className="logoFooter" src="/Logo.png" alt="" />
 
                         </div>
-                        <div>
-                            <p className="infoContent">268 St, South New York/NY 98944, United States
-                                <br />+222-1800-2628
-                                <br />blueskytechcompany@gmail.com</p>
+                        <div 
+                        style={{display:"flex",flexDirection:"column",gap:"9px"}}>
+                            <p className="infoContent">268 St, South New York <span>/NY 98944, United States</span>
+                               </p>
+                            <p className="infoContent">
+                                +222-1800-2628
+                            </p >
+                            <p className="infoContent" style={{letterSpacing:"-1%"}}>
+                                blueskytechcompany@gmail.com
+                            </p>
                         </div>
                         <div className="social">
-                            <svg width="30" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="28" height="34" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="18" cy="18" r="17.5" stroke="#555555" />
                                 <path d="M21.6 12H14.4C13.0745 12 12 13.0745 12 14.4V21.6C12 22.9255 13.0745 24 14.4 24H21.6C22.9255 24 24 22.9255 24 21.6V14.4C24.0001 13.0745 22.9255 12 21.6 12ZM20.4 13.8H22.2V15.6H20.4V13.8ZM18 15.6001C19.3255 15.6001 20.4 16.6746 20.4 18.0001C20.4 19.3255 19.3255 20.4 18 20.4C16.6745 20.4 15.6 19.3255 15.6 18.0001C15.6 16.6746 16.6745 15.6001 18 15.6001ZM22.8 21.6001C22.8 22.2628 22.2627 22.8001 21.6 22.8001H14.4C13.7373 22.8001 13.2 22.2628 13.2 21.6001V17.4H14.46C14.0996 19.3553 15.3926 21.2325 17.3479 21.5929C19.3032 21.9533 21.1804 20.6603 21.5408 18.705C21.5836 18.4725 21.6035 18.2364 21.6 18.0001C21.597 17.7987 21.577 17.598 21.54 17.4001H22.8V21.6001H22.8Z" fill="#555555" />
                             </svg>
-                            <svg width="30" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="28" height="34" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="18" cy="18" r="17.5" stroke="#555555" />
                                 <path d="M16.9886 24C15.9308 24 14.9163 23.5966 14.1682 22.8785C13.4202 22.1604 13 21.1864 13 20.1709C13 19.1554 13.4202 18.1814 14.1682 17.4633C14.9163 16.7452 15.9308 16.3418 16.9886 16.3418H17.9625V18.2105H16.9886C16.5841 18.2105 16.1886 18.3257 15.8522 18.5415C15.5159 18.7572 15.2537 19.0639 15.0989 19.4227C14.9441 19.7815 14.9036 20.1764 14.9825 20.5573C15.0614 20.9382 15.2562 21.2881 15.5423 21.5627C15.8283 21.8373 16.1928 22.0243 16.5896 22.1001C16.9864 22.1759 17.3976 22.137 17.7714 21.9883C18.1452 21.8397 18.4646 21.588 18.6894 21.2651C18.9141 20.9422 19.0341 20.5626 19.0341 20.1742V12H20.9807V12.9338C20.9807 13.4546 21.1962 13.9541 21.5798 14.3223C21.9634 14.6906 22.4836 14.8975 23.0261 14.8975H24V16.7629H23.0193C22.2984 16.7639 21.591 16.5753 20.9739 16.2175V20.1709C20.973 21.1856 20.5529 22.1586 19.8058 22.8764C19.0587 23.5942 18.0456 23.9983 16.9886 24Z" fill="#555555" />
                             </svg>
-                            <svg width="30" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="28" height="34" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="18" cy="18" r="17.5" stroke="#555555" />
                                 <path d="M24.9882 14.5648C24.8236 13.9529 24.3412 13.4706 23.7294 13.3058C22.6117 13 18.1411 13 18.1411 13C18.1411 13 13.6706 13 12.5529 13.2942C11.9529 13.4588 11.4587 13.953 11.2941 14.5648C11 15.6823 11 18 11 18C11 18 11 20.3294 11.2941 21.4352C11.4589 22.047 11.9411 22.5294 12.553 22.6941C13.6823 23 18.1412 23 18.1412 23C18.1412 23 22.6117 23 23.7294 22.7058C24.3413 22.5411 24.8236 22.0588 24.9884 21.447C25.2824 20.3294 25.2824 18.0118 25.2824 18.0118C25.2824 18.0118 25.2942 15.6823 24.9882 14.5648ZM16.7177 20.1412V15.8588L20.4353 18L16.7177 20.1412Z" fill="#555555" />
                             </svg>
-                            <svg width="30" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="28" height="34" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="18" cy="18" r="17.5" stroke="#555555" />
                                 <path d="M18.6709 16.0879L22.1182 12H23.7061L19.376 17.1348L24 24H20.1475L17.2344 19.6748L13.5879 24H12L16.5293 18.6279L12.0664 12H15.918L18.6709 16.0879ZM17.499 17.9238L17.9795 18.624L20.8438 22.8057H21.7754L18.3877 17.8613L17.9512 17.2236L15.2139 13.2285H14.2822L17.499 17.9238Z" fill="#555555" />
                             </svg>
-                            <svg width="30" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="28" height="34" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="18" cy="18" r="17.5" stroke="#555555" />
                                 <path d="M16.3334 14.6667V16H15V18H16.3334V24H19V18H20.7734L21 16H19V14.8334C19 14.2934 19.0533 14.0067 19.8866 14.0067H21V12H19.2134C17.08 12.0001 16.3334 13 16.3334 14.6667Z" fill="#555555" />
                             </svg>
 
                         </div>
                         <div className="followOnShop">
-                            <svg width="30" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="28" height="32" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="18" cy="18" r="18" fill="#5A31F4" />
                                 <path d="M24.706 14.3086C24.5117 13.8518 24.2285 13.4389 23.873 13.0945C23.1514 12.3924 22.1878 12 21.185 12C20.1823 12 19.2186 12.3924 18.497 13.0945L18.0001 13.5816L17.5031 13.0945C16.7815 12.3924 15.8178 12 14.8151 12C13.8123 12 12.8487 12.3924 12.1271 13.0945C11.7716 13.4389 11.4884 13.8518 11.2941 14.3086C11.1 14.7684 11 15.2629 11 15.7626C11 16.2624 11.1 16.7569 11.2941 17.2167C11.4865 17.6746 11.77 18.0878 12.1271 18.4308L17.6081 23.8376C17.66 23.8863 17.719 23.9268 17.7831 23.9576C17.9223 24.0141 18.0778 24.0141 18.2171 23.9576C18.2811 23.9268 18.3401 23.8863 18.392 23.8376L23.873 18.4308C24.2301 18.086 24.5141 17.6718 24.7078 17.2132C24.9015 16.7546 25.0009 16.2611 25 15.7626C25.0012 15.2628 24.9011 14.768 24.706 14.3086Z" fill="white" />
                             </svg>
-                            <p className="infoContent">Follow on</p>
-                            <svg width="32" height="16" viewBox="0 0 40 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <p className="followOnContent">Follow on</p>
+                            <svg width="32" height="20" viewBox="0 0 40 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fillRule="evenodd" clipRule="evenodd" d="M32.5073 4.67616C33.1404 3.88981 34.1227 3.23792 35.2953 3.23792C37.928 3.23792 40.0018 5.42712 40.0001 8.1284C40.0001 10.9429 37.9158 13.026 35.4151 13.026C34.0856 13.026 33.068 12.3423 32.696 11.7719H32.6606V15.906C32.6606 15.931 32.6508 15.9548 32.6332 15.9724C32.6157 15.99 32.592 15.9999 32.5671 15.9999H30.2235C30.1985 15.9999 30.1745 15.9902 30.1567 15.9726C30.139 15.955 30.1286 15.9312 30.1282 15.906V3.33024C30.1282 3.30492 30.1382 3.28054 30.1562 3.26261C30.174 3.24468 30.1982 3.23462 30.2235 3.23462H32.4137C32.4388 3.23509 32.4624 3.24531 32.4799 3.26324C32.4975 3.28117 32.5072 3.30523 32.5072 3.33024V4.67616H32.5073ZM35.0952 10.6292C34.9009 10.6353 34.7055 10.6186 34.5131 10.5787C34.0289 10.478 33.5858 10.2347 33.2401 9.87976C32.8945 9.5248 32.6622 9.07438 32.5728 8.58605C32.5469 8.44577 32.5335 8.30407 32.5319 8.16284C32.5302 8.00447 32.5433 7.84547 32.5718 7.6882C32.6603 7.20019 32.8914 6.74977 33.2357 6.39434C33.58 6.03891 34.022 5.79451 34.5052 5.69244C34.6988 5.65155 34.8953 5.63425 35.0908 5.64022C35.4087 5.64416 35.7226 5.71037 36.0152 5.83524C36.3116 5.96184 36.5803 6.14601 36.8056 6.37751C37.0308 6.60885 37.2082 6.88266 37.3277 7.1832C37.447 7.48375 37.5058 7.80505 37.5011 8.12871C37.5063 8.45285 37.4476 8.77509 37.3284 9.07642C37.2093 9.37775 37.032 9.65251 36.8069 9.88495C36.5817 10.1174 36.313 10.3028 36.0165 10.4305C35.7253 10.5557 35.4123 10.6233 35.0952 10.6292Z" fill="#111111" />
                                 <path d="M17.2926 5.11883C16.7511 3.97815 15.7248 3.24134 14.1783 3.24134C13.7036 3.24968 13.2371 3.36732 12.815 3.58545C12.3927 3.80343 12.026 4.11608 11.7431 4.49888L11.6867 4.56792V0.0973508C11.6867 0.0715585 11.6765 0.0467092 11.6584 0.0284659C11.6402 0.0102225 11.6155 0 11.5898 0H9.40306C9.37769 0.000471811 9.35343 0.0110109 9.33558 0.029097C9.31773 0.0473404 9.30786 0.0718731 9.30786 0.0973508V12.9212C9.30786 12.9465 9.31788 12.9709 9.33573 12.9888C9.35358 13.0067 9.37785 13.0168 9.40306 13.0168H11.7448C11.7702 13.0168 11.7946 13.0067 11.8128 12.989C11.8309 12.971 11.8412 12.9468 11.8417 12.9212V7.45335C11.8417 6.39052 12.5471 5.63783 13.6757 5.63783C14.9101 5.63783 15.2222 6.65804 15.2222 7.69775V12.9212C15.2222 12.9465 15.2322 12.9709 15.25 12.9888C15.2679 13.0067 15.2922 13.0168 15.3174 13.0168H17.6538C17.6793 13.0168 17.7037 13.0067 17.7217 12.989C17.7399 12.971 17.7504 12.9468 17.7509 12.9212V7.38604C17.7509 7.19653 17.7509 7.01048 17.7261 6.82994C17.6862 6.23781 17.5392 5.65796 17.2926 5.11883Z" fill="#111111" />
                                 <path d="M5.59935 7.01943C5.59935 7.01943 4.40734 6.73776 3.96815 6.62453C3.52911 6.51113 2.76189 6.2702 2.76189 5.68751C2.76189 5.10482 3.38083 4.91877 4.0087 4.91877C4.63657 4.91877 5.33473 5.07117 5.38938 5.7707C5.39157 5.79587 5.40316 5.8193 5.42179 5.83644C5.44042 5.85343 5.46469 5.86286 5.4899 5.86286L7.79813 5.85406C7.81175 5.85406 7.82522 5.85138 7.83759 5.84588C7.85011 5.84037 7.86123 5.83251 7.87047 5.8226C7.87971 5.8127 7.88691 5.8009 7.89145 5.788C7.89599 5.77511 7.89787 5.76143 7.89677 5.7479C7.75398 3.509 5.79835 2.7085 3.99429 2.7085C1.85532 2.7085 0.291135 4.1255 0.291135 5.68767C0.291135 6.82835 0.612114 7.8981 3.13548 8.64215C3.57812 8.77142 4.17937 8.9397 4.70483 9.08675C5.33614 9.26384 5.67654 9.53135 5.67654 9.95284C5.67654 10.4416 4.97117 10.7818 4.27817 10.7818C3.27483 10.7818 2.56241 10.4081 2.50417 9.73675C2.50119 9.71221 2.48929 9.68957 2.47066 9.67321C2.45219 9.65686 2.42823 9.64805 2.40365 9.64821L0.100583 9.6589C0.0871177 9.6589 0.0736523 9.66157 0.0612829 9.66692C0.0489134 9.67227 0.0376403 9.67997 0.0282457 9.68972C0.0188512 9.69947 0.0114921 9.71095 0.0066383 9.72369C0.00178447 9.73643 -0.000407555 9.7498 6.21702e-05 9.76348C0.105907 11.8766 2.13731 13.0155 4.03125 13.0155C6.85273 13.0155 8.12772 11.4214 8.12772 9.9283C8.13148 9.2264 7.97115 7.62885 5.59935 7.01943Z" fill="#111111" />
@@ -84,14 +90,14 @@ export const Footer = ({ responsive }) => {
 
 
                         <div className="textFooter" style={{ display: boolCategory.hot === false && responsive ? "none" : "block" }} >
-                            <p className="infoContent">
+                            <p className="infoContent1">
                                 Special Offers
                             </p>
-                            <p className="infoContent"> <span>Performance</span> </p>
-                            <p className="infoContent">T-shirts</p>
-                            <p className="infoContent">Underwear</p>
-                            <p className="infoContent">Top Brands</p>
-                            <p className="infoContent">Online Exclusive</p>
+                            <p className="infoContent1"> <span>Performance</span> </p>
+                            <p className="infoContent1">T-shirts</p>
+                            <p className="infoContent1">Underwear</p>
+                            <p className="infoContent1">Top Brands</p>
+                            <p className="infoContent1">Online Exclusive</p>
                         </div>
                     </div>
                     <div className="service">
@@ -113,15 +119,15 @@ export const Footer = ({ responsive }) => {
                         }
 
                         <div className="textFooter" style={{ display: boolCategory.service === false && responsive ? "none" : "block" }} >
-                            <p className="infoContent">
+                            <p className="infoContent3">
                                 Privacy Policy
                             </p>
-                            <p className="infoContent"> Refund Policy</p>
-                            <p className="infoContent">Shipping & Return</p>
-                            <p className="infoContent">Term & Conditions</p>
-                            <p className="infoContent">Advanced Search</p>
-                            <p className="infoContent">Theme FAQs</p>
-                            <p className="infoContent">Store Locations</p>
+                            <p className="infoContent3"> Refund Policy</p>
+                            <p className="infoContent3">Shipping & Return</p>
+                            <p className="infoContent3">Term & Conditions</p>
+                            <p className="infoContent3">Advanced Search</p>
+                            <p className="infoContent3">Theme FAQs</p>
+                            <p className="infoContent3">Store Locations</p>
                         </div>
 
                     </div>
@@ -142,14 +148,15 @@ export const Footer = ({ responsive }) => {
                             </div> : <h4 className="newsLetterTitle">Sign Up to Newsletter</h4>
                         }
 
-                        <div className="textFooter" style={{ display: boolCategory.letter === false && responsive ? "none" : "flex" }} >
-                            <p className="infoContent">
-                                Enter your email address to get $10 off your first order and free
+                        <div className="textFooter" style={{ display: boolCategory.letter === false && responsive ? "none" : "flex" , paddingBottom:15}} >
+                            <p className="infoContent2">
+                                Enter your email address to get $10  off your first order and free
                                 shipping. Updates information on Sales and Offers.
                             </p>
+                            
                             <div className="contactNewsLetter">
                                 <input type="text" className="inputNewsLetter" placeholder="Enter your email..." />
-                                <Button style={{ backgroundColor: '#111111', color: "#FFFFFF", fontSize: 12, fontWeight: 600 }} content="Subscribe"></Button>
+                                <Button content="Subscribe"></Button>
                             </div>
                         </div>
 
@@ -162,7 +169,7 @@ export const Footer = ({ responsive }) => {
                         <Select content={"United States (USD $)"} ></Select>
                     </div>
                     <div className="copyRightMiddler">
-                        <p className="infoContent">© 2023 Umino Store. All Rights Reserved.</p>
+                        <p >© 2023 Umino Store. All Rights Reserved.</p>
                     </div>
                     <div className="copyRightRight">
                         <div className="boxImgCopyRightRight">

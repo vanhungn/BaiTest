@@ -1,24 +1,32 @@
 .header {
-    padding: 23px;
+    padding:  0 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 55px;
+
 }
 
 .menuHeader {
     display: flex;
-    align-items: center;
-    gap: 30px
+    justify-content: center;
+    gap: 23px;
+    transform: translate(8%,1% );
+    
+
 }
 
 .menuHeader span {
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -2%;
 }
 
 .tool {
     display: flex;
-    align-items: center;
-    gap: 20px
+    align-items: flex-end;
+    gap: 15px;
+    transform: translate(4.5%, 12%);
 }
 
 .headerTool {
@@ -40,24 +48,21 @@
 .infoWishlist,
 .infoCart {
     position: absolute;
-    width: 18px;
-    height: 18px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     background-color: #D73F0F;
-    top: -30%;
-    right: -60%;
+    top: -25%;
+    right: -50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.infoCart {
-    background-color: orange;
-}
 
 .infoWishlist span,
 .infoCart span {
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0%;

@@ -5,7 +5,7 @@ export const Select = ({content}) => {
         <div className="select">
             <span>{content}
             </span>
-            <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+            <svg width="12" height="12" viewBox="0 0 20 20" fill="none">
                 <path
                     d="M5 7L10 12L15 7"
                     stroke="#555555"

@@ -1,15 +1,11 @@
 .select span {
-    font-size: 16px;
-    font-weight: 600;
     color: #111111;
-    line-height: 100%;
-    letter-spacing: 0%;
-
 }
 
 .select {
+    width: fit-content;
+    height: fit-content;
     display: flex;
     align-items: center;
-    gap: 5px
+    gap: 4px
 }
-
