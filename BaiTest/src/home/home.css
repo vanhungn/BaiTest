@@ -1,6 +1,6 @@
 .bannerPromotion {
     max-width: 1187px;
-    padding: 0 22px;
+    padding: 0 30px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -140,12 +140,12 @@
 .featureCategories,
 .newArrivals {
     max-width: 1187px;
-    padding: 4.5% 22px 0px 22px;
+    padding: 4.5% 30px 0px 30px;
     margin: auto;
 }
 
 .newArrivals {
-    padding: 5% 22px 0px 22px;
+    padding: 5% 30px 0px 30px;
 }
 
 
@@ -271,6 +271,9 @@
 }
 
 @media (max-width:580px) {
+    .bannerPromotion {
+        padding: 0 22px;
+    }
 
     .SleevelessDress div,
     .BoysComfyStyles div {
